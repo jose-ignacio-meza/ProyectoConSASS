@@ -1,0 +1,31 @@
+header {
+    ul{
+    width: 100%;
+    height: $anchoNav;
+    background-image:$colorSecundario;
+    color: $colorPrimario;
+    border-radius: 10px ;
+    padding-top: 10px;
+    margin: 2px ;
+    border: solid 1px ; 
+    border-color:$colorBorde;
+    align-items: center;
+    box-sizing:border-box;
+    align-items: center; 
+    animation-name: movi;
+    animation-duration: 1s;
+    animation-iteration-count: start; 
+    }
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    top: 15 px;
+    li{
+        display: inline-block;
+        margin-right: 1px;
+        border-right:solid 3px;
+        border-color:$colorBordeNav;
+   }
+}

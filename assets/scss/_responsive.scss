@@ -1,0 +1,34 @@
+@media (max-width: 592px){
+    .titulo{   
+        font-size:9px;
+    } 
+}
+@media (max-width: 792px){
+    .tituloSecundario{
+        font-size: 12px;
+    } 
+}
+@media (min-width: 792px){
+    .titulo{   
+        font-size:16px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: $colorPrimario;
+        text-align: center;
+    }
+    .tituloSecundario{
+        font-size:17px;
+    }
+}
+
+@keyframes movi{
+    0%{
+      transform: translate(0px , 0px);
+    }
+    50%{
+        transform: translate(0px ,-10px);
+    }
+    100%{
+        transform: translate(0px , 0px );
+    }
+}

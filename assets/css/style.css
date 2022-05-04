@@ -1,0 +1,156 @@
+header ul {
+  width: 100%;
+  height: 45px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#070062), to(#525da6));
+  background-image: linear-gradient(to left, #070062, #525da6);
+  color: #fff;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 2px;
+  border: solid 1px;
+  border-color: aliceblue;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  align-items: center;
+  -webkit-animation-name: movi;
+          animation-name: movi;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: start;
+          animation-iteration-count: start;
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  top: 15 px;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 1px;
+  border-right: solid 3px;
+  border-color: #000000e1;
+}
+
+* {
+  margin: "0";
+  padding: "0";
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #525450;
+}
+
+h3 {
+  text-align: center;
+}
+
+ol li {
+  list-style: none;
+}
+
+.tituloSecundario {
+  font-size: 10px;
+  color: #fff;
+  text-align: left;
+  margin-left: 3px;
+}
+
+.titulo {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+
+.fondoIndex {
+  background-image: url(../img/abadon.jpg);
+  background-size: cover;
+  background-position: initial;
+}
+
+@media (max-width: 592px) {
+  .titulo {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 792px) {
+  .tituloSecundario {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 792px) {
+  .titulo {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    text-align: center;
+  }
+  .tituloSecundario {
+    font-size: 17px;
+  }
+}
+
+@-webkit-keyframes movi {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -10px);
+            transform: translate(0px, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+@keyframes movi {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -10px);
+            transform: translate(0px, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+
+@keyframes movi {
+  0% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+  50% {
+    -webkit-transform: translate(0px, -10px);
+            transform: translate(0px, -10px);
+  }
+  100% {
+    -webkit-transform: translate(0px, 0px);
+            transform: translate(0px, 0px);
+  }
+}
+/*# sourceMappingURL=style.css.map */
