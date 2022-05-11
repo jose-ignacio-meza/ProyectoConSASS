@@ -2,6 +2,11 @@ $colorPrimario:#fff;
 $colorSecundario: linear-gradient(to left, rgb(7, 0, 98) ,rgb(82, 93, 166));
 $colorBorde:aliceblue;
 $colorBordeNav:#000000e1;
-$colorHover:#525450;
+$colorHover:#52545093;
 $anchoNav:45px;
-
+$propiedadesNav: (
+    radio:   10px ,
+    pading: 10px ,
+    margen:  10px ,
+    borde:   solid 1px 
+)

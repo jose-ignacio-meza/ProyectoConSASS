@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://jose-ignacio-meza.github.io/ProyectoConSASS/</loc>
+  <lastmod>2022-05-04T00:35:09+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://jose-ignacio-meza.github.io/ProyectoConSASS/index.html</loc>
+  <lastmod>2022-05-04T00:35:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jose-ignacio-meza.github.io/ProyectoConSASS/Pages/beatmaker.html</loc>
+  <lastmod>2022-05-04T00:35:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jose-ignacio-meza.github.io/ProyectoConSASS/Pages/artistas.html</loc>
+  <lastmod>2022-05-04T00:35:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jose-ignacio-meza.github.io/ProyectoConSASS/Pages/masPopulares.html</loc>
+  <lastmod>2022-05-04T00:35:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jose-ignacio-meza.github.io/ProyectoConSASS/Pages/contacto.html</loc>
+  <lastmod>2022-05-04T00:35:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

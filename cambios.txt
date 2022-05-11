@@ -1,0 +1,6 @@
+Aplique una variable con muchas variables para llamarlas mediante get-map llamada "$propiedadesNav" dentro de _variables.scss
+Use un mixin para crear los botones, y dentro de _botones.scss cree una clase "botonEnviar" extendida de la clase "botonVolver".
+Con la pagina imagecompressor comprimi la imagen del fondo del sitio web, y le modifique le tamaño y calidad en la pagina fotor.
+Agregue una descripcion a cada pagina del sitio web, y revise los titulos para verifiar que aparecen las palabras claves tales como (artistas, beatmaker, colaborar, conectar,plug and play, proyectos) las mismas las agregue como keyword
+por ultimo agregue un sitemap en la carpeta del proyecto.
+

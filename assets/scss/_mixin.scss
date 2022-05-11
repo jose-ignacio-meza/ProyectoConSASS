@@ -1,0 +1,7 @@
+@mixin propiedadesBoton ($colorFondo,$colorLetra,$ancho,$alto,$radio){
+    background-color:$colorFondo;
+    color: $colorLetra;
+    width: $ancho;
+    height: $alto;
+    border-radius: $radio;
+}

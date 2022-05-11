@@ -1,0 +1,14 @@
+@import"variables";
+.botonVolver{
+  @include propiedadesBoton(rgb(21, 91, 183), $colorPrimario,auto,30px, 10px)
+}
+
+.botonEnviar{
+  @extend .botonVolver;
+  border-color: bisque;
+  font-family:'Times New Roman', Times, serif;
+  botonEnviar:hover{
+      background-color: white;
+  }
+
+}
