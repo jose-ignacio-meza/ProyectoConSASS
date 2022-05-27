@@ -5,3 +5,14 @@
     height: $alto;
     border-radius: $radio;
 }
+@mixin tarjetaPropiedades ($alto,$ancho,$color,$fondo){
+    height: $alto;
+    width: $ancho;
+    color: $color;
+    background-color: $fondo;
+}
+
+@mixin imagenPropiedades($alto,$ancho){
+    height: $alto;
+    width: $ancho;
+}

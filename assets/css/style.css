@@ -66,6 +66,12 @@ ol, li {
   list-style: none;
 }
 
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .titulo {
   font-size: 11px;
   font-weight: bold;
@@ -157,5 +163,42 @@ ol, li {
 
 .botonEnviar botonEnviar:hover {
   background-color: white;
+}
+
+.tarjeta1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: auto;
+  width: 1000px;
+  color: white;
+  background-color: red;
+}
+
+.tarjeta1 .tarjeta__img {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100px;
+  width: 500px;
+}
+
+.tarjeta1 .tarjeta__texto {
+  margin-left: 5px;
+}
+
+.tarjeta1 p {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tarjeta1 .tarjeta__boton {
+  background-color: snow;
+  color: #2356f0;
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  font-size: 15px;
 }
 /*# sourceMappingURL=style.css.map */

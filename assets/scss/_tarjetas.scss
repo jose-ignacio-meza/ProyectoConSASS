@@ -1,0 +1,21 @@
+.tarjeta1{
+    display: flex;
+    flex-wrap: nowrap;
+    @include tarjetaPropiedades(auto,1000px,rgb(255, 255, 255),rgb(255, 0, 0));
+    .tarjeta__img{
+        box-sizing: border-box;
+        @include imagenPropiedades(100px,500px);
+    } 
+    .tarjeta__texto{
+        margin-left:5px;
+
+    }
+    p{
+        box-sizing:border-box;
+    }
+    .tarjeta__boton{
+        @include propiedadesBoton(rgb(255, 250, 250),rgb(35, 86, 240),auto,auto,5px);
+        font-size: 15px;
+    }
+}
+   
