@@ -169,19 +169,16 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  height: auto;
-  width: 1000px;
+  margin: 10px;
+  height: 250px;
+  width: 1300px;
   color: white;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0);
 }
 
 .tarjeta1 .tarjeta__img {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 100px;
-  width: 500px;
+  height: 250px;
+  width: 800px;
 }
 
 .tarjeta1 .tarjeta__texto {
@@ -195,10 +192,14 @@ p {
 
 .tarjeta1 .tarjeta__boton {
   background-color: snow;
-  color: #2356f0;
+  color: #1557bb;
   width: auto;
-  height: auto;
+  height: 22px;
   border-radius: 5px;
-  font-size: 15px;
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3px;
 }
 /*# sourceMappingURL=style.css.map */
