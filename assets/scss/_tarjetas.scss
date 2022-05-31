@@ -18,9 +18,24 @@
         padding: 2px;
     }
 }
-.tarjeta2{
+
+.tarjeta3{
     display: flex;
     margin: 10px;
-    @include tarjetaPropiedades();
+    border: 5px;
+    @include tarjetaPropiedades(250px,300px,rgb(255, 255, 255),rgba(255, 0, 0, 0)); 
+    .tarjeta__texto{
+        margin-left:5px;
+    }
+    p{
+        box-sizing:border-box;
+        padding-left: 10px ;
+    }
+    .tarjeta3__icono{
+        font-size: 20px;
+        border-radius: 55px;
+        padding-right: 5px ;
+        color: rgb(0, 0, 0);
+    }
 }
    

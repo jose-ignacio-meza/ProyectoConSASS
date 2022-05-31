@@ -6,6 +6,7 @@
 a{
     outline: none;
     text-decoration: none;
+    list-style: none;
 }
 
 a:visited {
@@ -17,6 +18,7 @@ a:hover {
     width: auto;
     border-bottom: 1px solid;
     background:$colorHover;
+    list-style: none;
 }
 
 h3{
@@ -28,6 +30,9 @@ ol , li{
 }
 p{
     display:flex;
+}
+textarea{
+    box-sizing: border-box;
 }
 
 
