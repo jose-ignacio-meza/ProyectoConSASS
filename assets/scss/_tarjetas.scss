@@ -19,6 +19,29 @@
     }
 }
 
+.tarjetas2{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 250px;
+    .tarjeta2_texto{
+        width: auto;
+        height: auto;
+    }
+    .tarjeta2_icono{
+        width: auto;
+        height: auto;
+        size: 100px;
+        color: red;
+        background-color: red;
+        .tarjeta2_icono button{
+            border-radius: 5px;
+            background-color: red;
+        }
+    }
+}
+
 .tarjeta3{
     display: flex;
     margin: 10px;
