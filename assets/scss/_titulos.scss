@@ -12,3 +12,10 @@
     text-align:left;
     margin-left: 3px;
 }
+
+.titulosMovimiento{
+    @extend .tituloSecundario;
+    animation-name:titulosMovimiento;
+    animation-duration: 1s;
+    animation-direction:reverse ;    
+}
