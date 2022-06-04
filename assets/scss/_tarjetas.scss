@@ -4,10 +4,11 @@
     @include tarjetaPropiedades(250px,1300px,rgb(255, 255, 255),rgba(255, 0, 0, 0));
     .tarjeta__img{
         @include imagenPropiedades(250px,650px);
+        width: 60%;
+        height:85%;
     } 
     .tarjeta__texto{
         margin-left:5px;
-
     }
     p{
         box-sizing:border-box;
@@ -22,6 +23,7 @@
 .tarjetas2{
     display: flex;
     margin: 10px;
+    border: 5px;
     padding: 10px;
     width: 400px;
     height: 250px;
