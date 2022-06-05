@@ -20,3 +20,28 @@
         font-size:17px;
     }
 }
+@media (min-width:400px){
+    .slide{
+        height: 200px;
+    }
+}
+@media (min-width:457px){
+     .slide{
+         height: 230px;
+     }
+}
+@media (min-width:600px){
+    .slide{
+        height: 330px;
+    }
+}
+@media (min-width:800px){
+    .slide{
+        height: 430px;
+    }
+}
+@media (min-width:1000px){
+    .slide{
+        height: 500px;
+    }
+}

@@ -5,6 +5,7 @@
 
 a{
     outline: none;
+    color: $colorPrimario;
     text-decoration: none;
     list-style: none;
 }
@@ -15,6 +16,7 @@ a:visited {
 
 a:hover {
     box-sizing: border-box;
+    color: $colorPrimario;
     width: auto;
     border-bottom: 1px solid;
     background:$colorHover;
@@ -34,5 +36,3 @@ p{
 textarea{
     box-sizing: border-box;
 }
-
-
